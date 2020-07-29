@@ -16,7 +16,7 @@ div#profile-pic {
 div#socialgrp-container {
   margin:0 auto;
   text-align:center;
-  width: 550px;    /* 110 x 5 icons */
+  width: 990px;    /* 110 x 9 icons */
 }
 div#socialgrp-container div {
   float:left;
@@ -99,14 +99,29 @@ div.social a {
 .hackerrank:hover {
   background:#2EC866;
 }
+.heroku:hover {
+  background:#2EC866;
+}
 .instagram:hover {
   background:#E4405F;
+}
+.leetcode:hover {
+  background:#050505;
 }
 .linkedin:hover {
   background:#0077B5;
 }
+.paperspace:hover {
+  background:#0d131f;
+}
 .pinterest:hover {
   background:#BD081C;
+}
+.rapidapi:hover {
+  background:#1d4371;
+}
+.swaggerhub:hover {
+  background:#85ea2d;
 }
 .travisci:hover {
   background:#39A85B;
