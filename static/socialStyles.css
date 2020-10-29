@@ -16,7 +16,7 @@ div#profile-pic {
 div#socialgrp-container {
   margin:0 auto;
   text-align:center;
-  width: 990px;    /* 110 x 9 icons */
+  width: 440px;    /* 110 x 4 icons */
 }
 div#socialgrp-container div {
   float:left;
@@ -36,7 +36,7 @@ div.social {
   -webkit-animation:white2grey 1s;
   animation:white2grey 1s;
 }
-@-webkit-keyframes white2grey { 
+@-webkit-keyframes white2grey {
   0% {opacity:0;}
 }
 @keyframes white2grey {
@@ -57,7 +57,7 @@ div.moving {
   animation:right2left 2s linear forwards;
   animation-delay: 1s;
 }
-@-webkit-keyframes right2left { 
+@-webkit-keyframes right2left {
   0%   {left:90%; background-color:#f57d00; opacity:1;}
   50%  {left:10%; background-color:#0077b5; opacity:1;}
   100% {left:90%;}
@@ -84,6 +84,9 @@ div.social a {
 .codepen:hover {
   background:black;
 }
+.dev:hover {
+    background:black;
+  }
 .dockerhub:hover {
   background:#0db7ed;
 }
@@ -140,22 +143,22 @@ div#flexbox-container {
   margin:0 auto;
   margin-bottom:100px;
   width:60%;
-  
+
   display:flex;         /* W3C */
   display:-moz-flex;    /* Firefox */
   display:-ms-flex;     /* Internet Explorer 10 */
-  display:-webkit-flex; 
+  display:-webkit-flex;
 
   flex-wrap:wrap;
   -moz-flex-wrap:wrap;
   -ms-flex-wrap:wrap;
   -webkit-flex-wrap:wrap;
-  
+
   align-items:stretch;
   -moz-align-items:stretch;
   -ms-align-items:stretch;
   -webkit-align-items:stretch; /* stretch height of boxes in a row */
-  
+
   justify-content:center;
   -moz-justify-content:center;
   -ms-justify-content:center;
