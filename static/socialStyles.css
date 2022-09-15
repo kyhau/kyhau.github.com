@@ -1,0 +1,206 @@
+
+body {
+  font-family:Helvetica, sans-serif, Arial;
+  margin-top:120px;
+  margin-left:auto;
+  margin-right:auto;
+}
+div#profile-pic {
+  background:url(https://avatars0.githubusercontent.com/u/5346476?v=2&s=460) no-repeat;
+  background-size:100%;
+  border-radius:70px;
+  height:140px;
+  width:140px;
+  margin:40px auto;
+}
+div#socialgrp-container {
+  margin:0 auto;
+  margin-top:60px;
+  text-align:center;
+  width: 440px;    /* 110 x 4 icons */
+}
+div#socialgrp-container div {
+  float:left;
+}
+div.social {
+  background:lightgrey;
+  border-radius:50px;
+  height:100px;
+  width:100px;
+  margin:5px 5px 5px 5px;
+  font-family:monospace;
+  font-size:1.2em;
+  font-weight:bold;
+  line-height:100px; /* align vertically center */
+  opacity:1;
+
+  -webkit-animation:white2grey 1s;
+  animation:white2grey 1s;
+}
+@-webkit-keyframes white2grey {
+  0% {opacity:0;}
+}
+@keyframes white2grey {
+  0% {opacity:0;}
+}
+
+div.moving {
+  background:lightgrey;
+  border-radius:5px;
+  height:10px;
+  width:10px;
+  top:-25px;
+  position:relative;
+  opacity:0;
+
+  -webkit-animation:right2left 2s linear forwards;
+  -webkit-animation-delay: 1s;
+  animation:right2left 2s linear forwards;
+  animation-delay: 1s;
+}
+@-webkit-keyframes right2left {
+  0%   {left:90%; background-color:#f57d00; opacity:1;}
+  50%  {left:10%; background-color:#0077b5; opacity:1;}
+  100% {left:90%;}
+}
+@keyframes right2left {
+  0%   {left:90%; background-color:#f57d00; opacity:1;}
+  50%  {left:10%; background-color:#0077b5; opacity:1;}
+  100% {left:90%;}
+}
+
+div.social a {
+  color: #FFFFFF;
+  text-decoration:none;
+}
+.blogspot:hover {
+  background:#f57d00;
+}
+.bitbucket:hover {
+  background:#0052CC;
+}
+.codecov:hover {
+  background:#F01F7A;
+}
+.codepen:hover {
+  background:black;
+}
+.dev:hover {
+    background:black;
+  }
+.dockerhub:hover {
+  background:#0db7ed;
+}
+.facebook:hover {
+  background:#3B5998;
+}
+.github:hover {
+  background:#181717;
+}
+.googleplus:hover {
+  background:#DC4E41;
+}
+.hackerrank:hover {
+  background:#2EC866;
+}
+.hacktoberfest:hover {
+  background:#050505;
+}
+.heroku:hover {
+  background:#2EC866;
+}
+.instagram:hover {
+  background:#E4405F;
+}
+.leetcode:hover {
+  background:#050505;
+}
+.linkedin:hover {
+  background:#0077B5;
+}
+.paperspace:hover {
+  background:#0d131f;
+}
+.pinterest:hover {
+  background:#BD081C;
+}
+.rapidapi:hover {
+  background:#1d4371;
+}
+.swaggerhub:hover {
+  background:#85ea2d;
+}
+.travisci:hover {
+  background:#39A85B;
+}
+.tryhackme:hover {
+  background:#1C2538;
+}
+.twitter:hover {
+  background:#1DA1F2;
+}
+.youtube:hover {
+  background:#FF0000;
+}
+
+
+/* flexbox */
+div#flexbox-container {
+  clear: both; /* clear float */
+  margin:0 auto;
+  margin-bottom:100px;
+  width:60%;
+
+  display:flex;         /* W3C */
+  display:-moz-flex;    /* Firefox */
+  display:-ms-flex;     /* Internet Explorer 10 */
+  display:-webkit-flex;
+
+  flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  -webkit-flex-wrap:wrap;
+
+  align-items:stretch;
+  -moz-align-items:stretch;
+  -ms-align-items:stretch;
+  -webkit-align-items:stretch; /* stretch height of boxes in a row */
+
+  justify-content:center;
+  -moz-justify-content:center;
+  -ms-justify-content:center;
+  -webkit-justify-content:center; /* x-alignment */
+}
+.flexboxCard {
+  box-sizing:content-box;  /* box-sizing:border-box; */
+  border-left:1px solid lightgrey;
+  border-right:1px solid lightgrey;
+  border-bottom:1px solid lightgrey;
+  font-size:0.9em;
+  margin-right:10px;
+  margin-top:40px;
+  padding:10px;
+}
+.flexboxCard a {
+  display:block;
+  padding:5px;
+  text-decoration:none;
+}
+#flexboxCardYellowgreen {
+  border-top:6px solid yellowgreen;
+}
+#flexboxCardOrange {
+  border-top:6px solid orange;
+}
+#flexboxCardRed {
+  border-top:6px solid red;
+}
+#flexboxCardLightblue{
+  border-top:6px solid lightblue;
+}
+#flexboxCard40c8f4{
+  border-top:6px solid #40c8f4;
+}
+#flexboxCardMediumpurple{
+  border-top:6px solid MediumPurple;
+}
